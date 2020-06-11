@@ -1,0 +1,89 @@
+.top_container{
+  background-color: #E4F9F5;
+  padding: 30
+}
+.heading{
+  margin: 0 auto 0 auto;
+  display: inline-block;
+  width: 20%;
+  font-family: Sacramento,serif;
+
+}
+body{
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  background-color: #E4F9F5;
+}
+.top_box{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+
+  border: 10px;
+  border-color: black;
+  border-style: solid;
+}
+.bottom-container{
+background-color: silver;
+padding: 20px;
+}
+.pro{
+  text-decoration: underline;
+  font-size:20px;
+  font-style: italic;
+}
+.image1{
+  position: relative;
+  bottom: 285px;
+}
+.image3{
+  position: relative;
+  left: 150px;
+}
+.name{
+  font-family: Sacramento,sans-serif;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.name:hover{
+  background-color: silver;
+}
+.skill{
+  font-family: 'Bree Serif', serif;
+  font-size: 23px;
+  margin: 0;
+}
+.skill:hover{
+  background-color: gold;
+}
+.image_6:hover{
+background-color: white;
+}
+.skill-row{
+  background-color: #E4F9F5;
+}
+.image_6{
+  background-color: black;
+}
+.heading_2{
+  font-family: 'Montserrat', sans-serif;
+}
+.contact-me{
+  background-color: silver
+}
+.skill-row-1{
+ background-color: #d4f3ef;
+ margin: 0;
+}
+.line{
+  width: 10%;
+  border:none;
+  border-top: dotted;
+  border-width: 10px;
+  color: white;
+}
+.line:hover {
+  color: silver;
+}

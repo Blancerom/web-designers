@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat&family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
+    window.dataLayer = window.dataLayer || [];
   </head>
   <body>
     <div class="top_container">
@@ -53,6 +54,15 @@
       <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
       <p>© 2020 Arif Anwar.</p>
     </div>
+    <script>
+  window.addEventListener('mousedown',function(s){
+    if(s.target.closest('[href*="mailto:"]')){
+     dataLayer.push({
+  event: "contact_me"}) 
+    }
+  });
+    
+</script>
 
   </body>
 </html>

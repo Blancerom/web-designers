@@ -67,6 +67,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      dataLayer.push({
   event: "contact_me"}) 
     }
+        if(s.target.closest('[href*="mailto:"]')){
+     dataLayer.push({
+  'event': 'contact_me',
+  'value': 78.45,
+  'items' : [{
+    'id': '1234',
+    'google_business_vertical': 'retail'
+  }]
+}); 
+    }
   });
     
 </script>
